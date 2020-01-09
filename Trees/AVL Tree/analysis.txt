@@ -1,0 +1,9 @@
+Joseph Elsisi 
+October 18 
+lab 108 
+
+1. These text files show that with an unbalanced tree, the path to get to the node you want in the worst case is linear, but with an AVLtree, the path was always shorter, saving time.  
+
+2. The benefit of the AVL tree is that it guarantees theta log(n) time for find, insert and remove. By storing the heights of the nodes, calculating the balance factor is quick. The trade off is that each node takes up more space in memory. 
+
+3. I would use a Binary Search tree if I am working with very little memory, or incredibly large data sets where time isn’t as important as getting the info stored. 

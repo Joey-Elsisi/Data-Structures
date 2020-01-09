@@ -1,0 +1,2 @@
+﻿I did not encounter nearly as many difficulties as in lab 2. My biggest issue was implementing the calculate method in postfixCalculator.cpp. I learned that the switch statement doesn’t work with strings.    
+Because of this I found a work around, which was to index the string at [0], pulling out a char. Figuring out how to split the input string into an array was also difficult.  
