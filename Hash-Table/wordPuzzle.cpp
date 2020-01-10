@@ -34,12 +34,7 @@ int main(int args, char* argv[]) {
     // attempt to read in the file
     string dictionary(argv[1]);
     string filename(argv[2]);
-    //    ifstream fileCount(dictionary);
-    //    while(!fileCount.eof()) {
-    //        getline(fileCount, string);
-    //        int ++;
-    //    }
-    hashTable dictMap(50000);
+    hashTable dictMap(50000);  
     bool result = readInGrid (filename , rows, cols);
     // if there is an error, report it
     if ( !result ) {
