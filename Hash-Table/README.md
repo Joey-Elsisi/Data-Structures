@@ -5,6 +5,9 @@ This folder contains my implementation of a hashtable, a word puzzle solution an
 
 
 ![File:Wordsearch.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wordsearch.svg/632px-Wordsearch.svg.png)
+
+
+
 In this 10x10 grid of letters, the goal is to find words in the puzzle in any of the eight directions. The word circled in red is in the south-east direction. Words can go backward (although none do in this example), but they cannot "wrap around" from one side to the other (or from top to bottom, etc.).
 
 For the purposes of this lab, your program will be presented with a grid of letters and a dictionary of words. All words in the dictionary that are in the grid, in any of the 8 directions, are to be outputted.
