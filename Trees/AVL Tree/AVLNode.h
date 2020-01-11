@@ -1,18 +1,24 @@
+//Joseph Elsisi jre3wjh
+//108
+//october 17
 #ifndef AVLNODE_H
 #define AVLNODE_H
 #include <string>
 using namespace std;
 
 class AVLNode {
-  AVLNode();
-  ~AVLNode();
+    AVLNode();
 
-  string value;
-  AVLNode* left;
-  AVLNode* right;
-  int height;
+    AVLNode(string val);
 
-  friend class AVLTree;
+    ~AVLNode();
+
+    string value;
+    AVLNode* left;
+    AVLNode* right;
+    int height;
+
+    friend class AVLTree;
 };
 
 #endif

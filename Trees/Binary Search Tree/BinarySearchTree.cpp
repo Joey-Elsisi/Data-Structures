@@ -25,67 +25,11 @@ BinaryNode* BinarySearchTree::insertHelp(BinaryNode* node, const string& x) cons
   }
   return node;
 }
-//   if(node == NULL)
-//   {
-//   // if(node -> left == NULL){
-//   //   if(node -> right == NULL){
-//        if(x.compare(node->value) < 0){
-//        node -> left = new BinaryNode(x);
-//        return;
-//       } else{
-//       node -> right = new BinaryNode(x);
-//       return;
-//       }
-//   } 
-//   else if(x.compare(node->value) < 0)
-//   {
-//        insertHelp(node -> left, x);
-//        return;
-// } 
-// else
-// {
-//   insertHelp(node -> right, x);
-//   return;
-// }
-// }
+
 
 void BinarySearchTree::insert(const string& x) {
-  // YOUR IMPLEMENTATION GOES HERE
   BinaryNode * john = insertHelp(root, x);
 }
-//   bool inserted = false;
-//   if(root == NULL){
-//     root = new BinaryNode(x);
-//     cout << "root is null!" << endl;
-//     return;
-//   }
-//   BinaryNode * currNode = root; //is this a pointer?
-//   while(!inserted){
-//   cout<<"attempting insert" << endl;
-//   if(currNode -> left == NULL){
-//     if(currNode -> right == NULL){
-//     currNode -> value = x;
-// }
-//   } 
-//     else if(x.compare(currNode->value) < 0){
-//       if(currNode -> left == NULL){
-//       currNode -> left = new BinaryNode(x);
-//       inserted = true;
-//   } else{
-//       currNode = (currNode -> left);
-//   }
-// }
-//   else{
-//     if(currNode -> right == NULL){
-//     currNode -> right = new BinaryNode(x);
-//     inserted = true;
-//     } else{
-//     currNode = (currNode -> right);
-//       }
-//     }
-//   }
-// }
-
 
 // remove finds x's position in the tree and removes it.
 void BinarySearchTree::remove(const string& x) { 
@@ -95,15 +39,12 @@ void BinarySearchTree::remove(const string& x) {
 // pathTo finds x in the tree and returns a string representing the path it
 // took to get there.
 string BinarySearchTree::pathTo(const string& x) const {
-  // YOUR IMPLEMENTATION GOES HERE
-
   return NULL;
 }
 
  // bool BinarySearchTree::find()
 // find determines whether or not x exists in the tree.
 bool BinarySearchTree::find(const string& x) const {
-  // YOUR IMPLEMENTATION GOES HERE
   return NULL;
 }
 int BinarySearchTree::counterHelp(BinaryNode* node) const{

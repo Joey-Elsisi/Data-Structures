@@ -3,7 +3,7 @@ Joseph Elsisi
 jre3wjh
 October 13
 TreeCalc.cpp
-*/// Insert your header information here
+*/
 // TreeCalc.cpp:  CS 2150 Tree Calculator method implementations
 
 #include "TreeCalc.h"

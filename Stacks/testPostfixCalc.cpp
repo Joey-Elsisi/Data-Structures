@@ -13,7 +13,7 @@ Septeber 13
 using namespace std;
 
 int main(){
-	PostFixCalculator p;
+PostFixCalculator p;
     string input;
     cout << "Enter your numbers/operators" << endl;
     getline(cin, input);
